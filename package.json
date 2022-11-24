@@ -1,0 +1,25 @@
+{
+  "name": "taobot",
+  "version": "1.0.0",
+  "description": "Bot de Discord para multiples tareas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomhuel/TaoBot.git"
+  },
+  "author": "LukaLaKuka#6765",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Tomhuel/TaoBot/issues"
+  },
+  "homepage": "https://github.com/Tomhuel/TaoBot#readme",
+  "dependencies": {
+    "discord.js": "^14.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.28.0"
+  }
+}
