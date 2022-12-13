@@ -15,11 +15,6 @@ TaoBot.once(Events.ClientReady, c => {
 	console.log(`Listo, sesión iniciada como: ${c.user.tag}`);
 });
 
-// Log in to Discord with your client's token
-// Inicia sesión a Discord con el token del cliente (el bot)
-TaoBot.login(token);
-
-
 const fs = require('node:fs');
 const path = require('node:path');
 
@@ -92,3 +87,6 @@ TaoBot.on(Events.InteractionCreate, async interaction => {
 	}
 });
 
+// Log in to Discord with your client's token
+// Inicia sesión a Discord con el token del cliente (el bot)
+TaoBot.login(token);
